@@ -14,6 +14,7 @@
 		327345171B7697200014554B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 327345151B7697200014554B /* LaunchScreen.storyboard */; };
 		327345221B7697200014554B /* CollisionDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327345211B7697200014554B /* CollisionDemoTests.swift */; };
 		3273452D1B7697200014554B /* CollisionDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3273452C1B7697200014554B /* CollisionDemoUITests.swift */; };
+		3273453D1B76B2840014554B /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3273453C1B76B2840014554B /* UIColorExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		327345281B7697200014554B /* CollisionDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollisionDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3273452C1B7697200014554B /* CollisionDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollisionDemoUITests.swift; sourceTree = "<group>"; };
 		3273452E1B7697200014554B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3273453C1B76B2840014554B /* UIColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				3273450C1B7697200014554B /* AppDelegate.swift */,
 				3273450E1B7697200014554B /* ViewController.swift */,
+				3273453C1B76B2840014554B /* UIColorExtensions.swift */,
 				327345101B7697200014554B /* Main.storyboard */,
 				327345131B7697200014554B /* Assets.xcassets */,
 				327345151B7697200014554B /* LaunchScreen.storyboard */,
@@ -257,6 +260,7 @@
 			files = (
 				3273450F1B7697200014554B /* ViewController.swift in Sources */,
 				3273450D1B7697200014554B /* AppDelegate.swift in Sources */,
+				3273453D1B76B2840014554B /* UIColorExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,6 +487,7 @@
 				327345331B7697200014554B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		327345341B7697200014554B /* Build configuration list for PBXNativeTarget "CollisionDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +496,7 @@
 				327345361B7697200014554B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		327345371B7697200014554B /* Build configuration list for PBXNativeTarget "CollisionDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +505,7 @@
 				327345391B7697200014554B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
